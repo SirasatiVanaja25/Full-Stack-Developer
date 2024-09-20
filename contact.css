@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.cotact{
+    padding: 20px;
+}
+
+.contact-section {
+    background-image: url("https://static.workaway.info/gfx/media/2020/05/medium_large/1_158869945407262.jpg");
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-section h2 {
+    text-align: center;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    margin-top: 10px;
+}
+
+
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color:lightpink;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    cursor: pointer;
+    
+    background-image:  url("https://www.keralaholidays.com/uploads/tourpackages-gallery/thumb/pondicherry-tour-package.jpeg");
+}
+
+
+header {
+   
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.packages {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 10px;
+}
+
+.package {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 30%;
+    
+    border-color:lightcyan;
+}
+
+.package h2 {
+    color: #333;
+  
+}
+
+.package p {
+    color: #666;
+
+}
